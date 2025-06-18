@@ -142,7 +142,7 @@ SENSOR_TYPES = [
         key="yieldtoday",
         name="Yield today",
         translation_key="yield_today",
-        device_class=SensorDeviceClass.TOTAL,
+        device_class=SensorDeviceClass.TOTAL_INCREASING,
         native_unit_of_measurement="kWh",
     ),
     SensorEntityDescription(
