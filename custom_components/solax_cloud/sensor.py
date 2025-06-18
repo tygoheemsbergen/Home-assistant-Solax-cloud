@@ -144,7 +144,7 @@ SENSOR_TYPES = [
         translation_key="yield_today",
         device_class=SensorDeviceClass.ENERGY,
         native_unit_of_measurement="kWh",
-        state_class=SensorStateClass.TOTAL_INCREASING,
+        state_class="total_increasing",
     ),
     SensorEntityDescription(
         key="yieldtotal",
@@ -152,7 +152,7 @@ SENSOR_TYPES = [
         translation_key="yield_total",
         device_class=SensorDeviceClass.ENERGY,
         native_unit_of_measurement="kWh",
-        state_class=SensorStateClass.TOTAL_INCREASING,
+        state_class="total_increasing",
     ),
     SensorEntityDescription(
         key="feedinpower",
